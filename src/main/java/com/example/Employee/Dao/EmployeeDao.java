@@ -19,7 +19,7 @@ public class EmployeeDao {
 	public String PostThis(Employee e) {
 	
 		er.save(e);
-		return "Post Successfully";
+		return "Post Successfully Saved";
 	}
 
 	public List<Employee> getthis() {
